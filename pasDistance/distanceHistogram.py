@@ -15,7 +15,7 @@ def repeatsHistogram(data):
     plt.show()
 
 def main():
-    data = findDistance("EMA_Analyze\pasDistance\pasbed.bed")
+    data = findDistance("pasbed.bed")
     
     repeatsHistogram(data)
 
